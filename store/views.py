@@ -110,7 +110,7 @@ def create_furniture(request):
             return redirect('/')
 
     context = {'form':form}
-    return render(request, 'store/create_customer.html',context)
+    return render(request, 'store/create_furniture.html',context)
 
 #do it same as add furniture
 def create_order(request):
